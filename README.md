@@ -1,4 +1,5 @@
-_iTunes Web Interface_
+iTunes Web Interface
+--------------------
 
 This project is designed to provide a useful iTunes web-interface for casual manipluation
 of iTunes throughout a house in order to mitigate having to use remote-desktop or other
@@ -6,9 +7,7 @@ bloated solutions.
 
 The current commands available are accessed through rest.
 
-They are implemented using
-
-  where command = "osascript -e 'tell app \"iTunes\" to " ++ argument ++ "'":
+They are implemented using _osascript -e 'tell app \"iTunes\" to " ++ argument ++ "'"_:
 
 * ("play",     "play"),
 * ("stop",     "stop"),

@@ -7,7 +7,7 @@ bloated solutions.
 
 The current commands available are accessed through rest.
 
-They are implemented using _osascript -e 'tell app \"iTunes\" to " ++ argument ++ "'"_:
+They are implemented using _osascript -e 'tell app "iTunes" to ..._
 
 * ("play",     "play"),
 * ("stop",     "stop"),

@@ -17,3 +17,5 @@ They are implemented using _osascript -e 'tell app "iTunes" to ..._
 * ("previous", "previous track"),
 * ("up",       "set sound volume to sound volume + 5"),
 * ("down",     "set sound volume to sound volume - 5")
+
+_This project bases iTunes control commands on the scripts found at http://forum.micasaverde.com/index.php?topic=3895.0_
